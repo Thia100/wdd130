@@ -35,6 +35,10 @@ aside{
     text-align: center;
 }
 
+main{
+    max-width: 840px;
+}
+
 aside img{
     width: 200px;
     height: auto;
