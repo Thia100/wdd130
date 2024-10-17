@@ -51,7 +51,6 @@ nav a:hover {
     color: var(--accent2-color);
     text-decoration: wavy;
     font-weight: 800;
-    font-size: 400;
   }
 
 
@@ -81,7 +80,6 @@ nav a:hover {
     color:#040506;
     text-align: center;
     font-weight: 200;
-    font-size: 300;
 }
 
 .hero article img {
@@ -127,7 +125,6 @@ p{
     display: grid;
     grid-template-rows:  auto auto;
     grid-template-columns: 0.75fr 1fr 0.75fr;
-    margin-top: 20px 0;
     align-items: center;
     max-width: 1000px;
     margin: 3rem auto 3rem;
