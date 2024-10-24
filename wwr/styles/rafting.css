@@ -7,8 +7,9 @@
 /* General layouts */
 body{
     font-family: "Open Sans", sans-serif;
-    max-width: 100rem;
-    margin: 0 auto;
+    background-color: #d8e9ee;
+    /* max-width: 9;
+    margin: 0 auto; */
 }
 *{
     box-sizing: border-box;
@@ -103,7 +104,7 @@ nav a:hover {
 
 h2{
     font-family:"Lato", sans-serif;
-    color: var(--secondary-color);
+    color: #1b271f;
     font-weight: 600;
 }
 
@@ -210,17 +211,19 @@ footer p{
 }
 
 
+/* Additional Contents */
 section.contact {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 20px; 
     padding: 20px;
-    width: fit-content;
+    width: 100%;
 }
 .container1, .container2 {
     padding: 25px;
     border: 1px solid #ccc;
-    background-color: #f9f9f9;
+    background-color: #638dbd;
+    color: #040506;
 }
 form {
     display: flex;
@@ -254,10 +257,6 @@ label, input, textarea, button {
     gap: 25px;
     margin-left: 20px;
     justify-content: space-around;
-    /* justify-content: space-around;
-    display: flex;
-    width: 200px;
-    height: auto; */
 }
 
 .gallery h2{
