@@ -112,6 +112,7 @@ p{
     font-family: "Open Sans", sans-serif;
     color: var(--accent1-color);
     font-weight: 400;
+    font-size: 20px;
 } 
 
 
@@ -185,9 +186,10 @@ p{
     margin-left: 25px;
 }
 section{
-    /* display: flex; */
-    margin-bottom: 10px;
-     width: 50%;
+    margin-bottom: 15px;
+    width: 50%;
+    gap: 50px;
+     
 }
 
 section img{
@@ -211,12 +213,12 @@ footer p{
 }
 
 
-/* Additional Contents */
+/* CONTACT US*/
 section.contact {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 20px; 
-    padding: 20px;
+    padding: 50px;
     width: 100%;
     
 }
@@ -235,6 +237,10 @@ label, input, textarea, button {
 }
 button{
     background-color: var(--accent1-color);
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    margin-left: auto;
 }
 .container2 img  {
     width: 50px;
@@ -243,6 +249,7 @@ button{
 }
 .container2 p{
     color: #040506;
+    margin-bottom: 20px;
 }
 .map {
     margin-top: 20px;
@@ -277,4 +284,19 @@ button{
 }
 
 
+/* HOMEPAGE */
+.trips{
+    display: flex;
+    flex-direction: column;
+}
+.trips h2{
+    text-align: center;
+    font-size: 35px;
+}
+.trips img{
+    margin-left: 250px;
+}
+.trips p{
+    margin-left: 200px;
+}
 
