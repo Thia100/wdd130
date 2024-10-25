@@ -232,6 +232,9 @@ form {
 label, input, textarea, button {
     margin-bottom: 60px;
 }
+button{
+    background-color: var(--accent1-color);
+}
 .container2 img {
     width: 50px;
     vertical-align: middle;
@@ -268,7 +271,6 @@ label, input, textarea, button {
     text-align: center;
     margin: 0 10px;
 }
-
 
 
 
