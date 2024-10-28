@@ -170,14 +170,13 @@ p{
     grid-column: 1/6;
     grid-row: 1/2;
     text-align: center;
-    margin-left: 320px;
+    margin-left: 170px;
     font-size: 30px;
 }
 
 .adventure img{
     width: 100%;
     gap: 100px;
-    margin-left: 150px;
     height: 100px;
     object-fit: cover;
     border-radius: 10%;
