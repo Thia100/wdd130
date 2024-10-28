@@ -342,7 +342,7 @@ button{
     background-color:var(--accent1-color);
     margin-top: 15px;
     padding: 8px;
-    color: #0c2801;
+    color: #f8f1f1;
 }
 .cta .content {
     display: flex;
