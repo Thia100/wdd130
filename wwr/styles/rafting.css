@@ -212,7 +212,7 @@ footer{
     background: var(--accent1-color);
 }
 
-footer p{
+footer p, footer .Wireframe-link{
     color:#b2c3f5;
 }
 
@@ -241,6 +241,7 @@ label, input, textarea, button {
 }
 button{
     background-color: var(--accent1-color);
+    color: #f8f1f1;
     width: 250px;
     height: auto;
     padding: 15px;
